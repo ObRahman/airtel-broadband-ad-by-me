@@ -39,24 +39,27 @@ header .webhead {
     box-sizing: border-box;
     position: fixed;
     top: 0px;
+    padding-bottom: 12px;
+    padding-top: 2px;
     z-index: 100;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(255, 0, 0);
     font-size: 40px;
     background: white;
+    font-family: "Madimi One", sans-serif;
+    color: red;
 }
 
 .webhead img{
     width: 60px;
     height: 99%;
     border-radius: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: -1px;
 }
 .webhead div{
     display: inline-block;
-    position: relative;
-    left: -10px;
-    font-family: "Madimi One", sans-serif;
-    bottom: 12px;
-    color: red;
+    margin-left: 57px;
 }
 
 
@@ -71,7 +74,16 @@ header #image{
     top: 61px;
     object-fit: fill;
 }
-
+.abrahman{
+    text-align: center;
+    position: relative;
+    top: -72px;
+}
+.abrahman img{
+    width: 254px;
+    height: 250px;
+    border-radius: 722px;
+}
 header .intro {
     width: var(--normalwidth);
     height: auto;
@@ -80,9 +92,10 @@ header .intro {
     box-sizing: border-box;
     display: inline-block;
     position: relative;
-    top: 57px;
+    top: -93px;
     padding: 10px 0px 21px;
     color: red;
+    display: inline-block;
    }
 
 header .intro  #head{
@@ -98,7 +111,7 @@ header .intro p{
 
 header .intro p span{
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     background: red;
     border-radius: 3px;
     padding: 1px;
@@ -112,7 +125,7 @@ header .intro p span{
     border: var(--normalborder);
     box-sizing: border-box;
     position: relative;
-    top: 51px
+    top: -101px;
 }
 .plan1 .sectionhead {
     width: var(--normalwidth);
@@ -138,7 +151,7 @@ header .intro p span{
     box-sizing: border-box;
     padding-top: 22px;
     padding-left: 10px;
-    padding-bottom: 69px;
+    padding-bottom: 0px;
    }
 
 .plan1 .box {
@@ -238,7 +251,6 @@ footer {
     bottom: -36px;
     padding: 3px;
     color: rgb(255, 255, 255);
-    border-top: 1px solid grey;
     text-align: center;
     font-size: 30px;
     font-family:  "Signika Negative", sans-serif;;
