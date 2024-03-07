@@ -26,10 +26,6 @@
 
 :root {
     --normalwidth: 100%;
-    --normalheight: 100px;
-    --normaldisplay: inline-block;
-    --normal-sizing: border-box;
-    --normalback: #f7f7fa;
 }
 
 header .webhead {
