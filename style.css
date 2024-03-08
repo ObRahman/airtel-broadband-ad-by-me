@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Encode+Sans:wght@100..900&family=Madimi+One&family=Manrope:wght@200..800&family=Noto+Sans+Ugaritic&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Signika+Negative:wght@300..700&family=Varela+Round&display=swap');
 
 
+body{
+    background: #f4f4f4;
+}
 * {
     padding: 0%;
     margin: 0%;
@@ -162,8 +165,7 @@ header .intro p span{
     border-radius: 10px;
     position: relative;
     display: inline-block;
-    background: #f7f4f4;
-
+    background: #f4f4f4;
 }
 
 .box:hover{
@@ -317,4 +319,8 @@ footer a:hover{
         background: white;
         font-family: "Madimi One", sans-serif;
         color: red;
+    }
+    .webhead div {
+            top: 15px;
+        }
    }
