@@ -40,7 +40,7 @@ header .webhead {
     padding-top: 2px; */
     z-index: 100;
     /* border-bottom: 0px solid rgb(0 0 0); */
-    font-size: 40px;
+    font-size: 24px;
     background: white;
     font-family: "Merriweather", serif;
     color: rgb(227,0,17);
@@ -48,6 +48,11 @@ header .webhead {
     flex-direction: row;
     align-items: center;
     box-shadow: -1px -12px 13px 1px black;
+}
+
+.webhead b {
+    letter-spacing: 1px;
+    font-size: 27px;
 }
 
 .webhead img{
@@ -74,7 +79,7 @@ header #image{
     box-sizing: border-box;
     position: relative;
     top: 57px;
-    object-fit: fill;
+    object-fit: contain;
 }
 .abrahman{
     text-align: center;
