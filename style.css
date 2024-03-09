@@ -60,7 +60,7 @@ header .webhead {
     display: inline-block;
     margin-left: 57px;
     position: absolute;
-    top: 11px;
+    top: 5px;
 }
 
 
@@ -305,10 +305,13 @@ footer a:hover{
    
    @media screen and (max-width: 607px) {
     header .webhead {
-        font-size: 26px;
+        font-size: 24px;
         background: white;
         color: rgb(227,0,17);
+        top: 10;
     }
+
+header .webhead div {}
     .webhead div {
             top: 15px;
         }
