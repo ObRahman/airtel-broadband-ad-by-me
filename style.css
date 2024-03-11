@@ -372,18 +372,21 @@ footer a:hover{
     }
 
     @media  screen and (orientation: portrait){
+        .foooter {
+            padding-top: 11px;
+        }
         .foooter div{
             width: var(--normalwidth);
-            height: 30px;
+            height: auto;
             display: block;
             text-align: justify;
        }
 
        .foooter div:nth-child(2){
-        margin-top: 80px;
+        margin-top: 10px;
        }
        .note{
-        margin-top: 60px;
+        margin-top: -2px;
         text-align: justify;
        }
     }
